@@ -233,6 +233,8 @@ def compute_dual(
     feat_repr=False,
     device="cuda",
 ):
+    import pdb
+    pdb.set_trace()
     # to return 2
     # get indices of corrupted and non corrupted for visualization
     train_indices = get_indices(trainloader)
